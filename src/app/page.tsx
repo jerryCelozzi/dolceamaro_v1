@@ -1,6 +1,7 @@
 "use client"
 import { Box, Grid ,Stack} from '@mui/material'
 import React from 'react'
+import Image from 'next/image';
 import Slider from './components/Slider';
 
 function page() {
@@ -11,6 +12,13 @@ function page() {
       <Grid item md={2} ></Grid>
       <Grid item xs={12} md={8}  sx={{display:'flex',justifyContent:'center'}}>
         {/* <Slider/> */}
+        <Image
+                src="/logo.png"
+                alt="cityopensource"
+                width={1000}
+                height={500}
+                style={{ objectFit: "contain" }}
+              />
         </Grid>
       <Grid item  md={2} ></Grid>
       
