@@ -2,7 +2,7 @@
 import { Box, Grid ,Stack} from '@mui/material'
 import React from 'react'
 import Image from 'next/image';
-import Slider from './components/Slider';
+
 
 function page() {
   return (
