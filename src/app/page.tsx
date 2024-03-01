@@ -11,13 +11,19 @@ function page() {
     <Grid container>
       <Grid item md={2} ></Grid>
       <Grid item xs={12} md={8}  sx={{display:'flex',justifyContent:'center'}}>
-        {/* <Slider/> */}
-        <Image
-                src="/logo.png"
-                alt="cityopensource"
-                width={1000}
-                height={500}
-                style={{ objectFit: "contain" }}
+        
+      <Box
+                component="img"
+                sx={{
+                  height:350,
+                  display: 'block',
+                  
+                  overflow: 'hidden',
+                  width: '100%',
+             
+                }}
+                src={'/logo.png'}
+               
               />
         </Grid>
       <Grid item  md={2} ></Grid>
