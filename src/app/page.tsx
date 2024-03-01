@@ -9,7 +9,9 @@ function page() {
     <Grid xs={12}item  style={{display:'flex',justifyContent:'center',marginTop:'4%'}}>
     <Grid container>
       <Grid item md={2} ></Grid>
-      <Grid item xs={12} md={8}  sx={{display:'flex',justifyContent:'center'}}><Slider/></Grid>
+      <Grid item xs={12} md={8}  sx={{display:'flex',justifyContent:'center'}}>
+        {/* <Slider/> */}
+        </Grid>
       <Grid item  md={2} ></Grid>
       
       </Grid>
