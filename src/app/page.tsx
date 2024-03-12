@@ -2,6 +2,7 @@
 import { Box, Grid, Stack } from "@mui/material";
 import React from "react";
 import Image from "next/image";
+//import Slider from "@mui/material";
 
 function page() {
   return (
@@ -27,6 +28,7 @@ function page() {
                 src={"/logo.png"}
               />
             </Stack>
+{/* <Slider/> */}
           </Grid>
           {/* 
 
